@@ -1,0 +1,31 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "2024-08-15T21:04:59Z",
+    "title" : "order_service_api"
+  },
+  "host" : "r5ulkx7seh.execute-api.ap-south-1.amazonaws.com",
+  "basePath" : "/dev",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/" : {
+      "x-amazon-apigateway-any-method" : {
+        "produces" : [ "application/json" ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "schema" : {
+              "$ref" : "#/definitions/Empty"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Empty" : {
+      "type" : "object",
+      "title" : "Empty Schema"
+    }
+  }
+}
