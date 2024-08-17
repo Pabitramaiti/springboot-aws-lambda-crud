@@ -1,4 +1,4 @@
-# springboot-aws-lambda-example Deploy Spring Boot CRUD Application With MySQL on
+# springboot-aws-lambda-crud Deploy Spring Boot CRUD Application With MySQL on
 Youtube Help
 ============
 https://www.youtube.com/watch?v=1f6GOjT_zsc  --> AWS Lambda Handler Error <br>
@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=dTxuhpEFQbk&t=181s
 
 Source Code in Git
 ==================
-
+https://github.com/Pabitramaiti/springboot-aws-lambda-crud.git
 https://github.com/Java-Techie-jt/aws-lambda-example
 
 Creating AWS resources

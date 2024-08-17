@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example.lambda</groupId>
-	<artifactId>springboot-aws-lambda-example</artifactId>
+	<artifactId>springboot-aws-lambda-crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>springboot-aws-lambda-example</name>
+	<name>springboot-aws-lambda-crud</name>
 	<description>Serverless Spring Boot 3 API</description>
 
 	<parent>
@@ -71,7 +71,7 @@
 	</dependencies>
 
 	<build>
-		<!--<finalName>springboot-aws-lambda-example</finalName>-->
+		<!--<finalName>springboot-aws-lambda-crud</finalName>-->
 		<plugins>
 			<!--<plugin>
 				<groupId>org.springframework.boot</groupId>
