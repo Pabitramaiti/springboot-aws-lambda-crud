@@ -41,12 +41,12 @@ public class OrderController {
         return service.getAllOrders();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/getorder/{id}")
     public Order getOrderById(@PathVariable int id){
         return service.getOrderById(id);
     }
     
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/deleteorder/{id}")
     public String deleteOrderById(@PathVariable int id){
     	try {
 			service.deleteOrderById(id);
